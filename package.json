@@ -3,9 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "current": "002-console/task_1/current.js",
+    "add": "002-console/task_1/add.js",
+    "sub": "002-console/task_1/sub.js",
+    "guess-the-number": "002-console/task_2/guess-the-number.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
 }
