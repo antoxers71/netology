@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "current": "002-console/task_1/current.js",
-    "add": "002-console/task_1/add.js",
-    "sub": "002-console/task_1/sub.js",
+    "get-date": "002-console/task_1/get-date.js",
     "guess-the-number": "002-console/task_2/guess-the-number.js"
   },
   "scripts": {
