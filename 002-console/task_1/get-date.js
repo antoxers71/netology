@@ -2,7 +2,7 @@
 const yargs = require('yargs/yargs')
 const {hideBin} = require('yargs/helpers')
 
-const argv = yargs(hideBin(process.argv))
+yargs(hideBin(process.argv))
     .command('current [year] [month] [day]', 'Получение текущей даты', (yargs) => {
         return yargs
             .option('year', {
@@ -100,4 +100,4 @@ const argv = yargs(hideBin(process.argv))
 
         console.log(date.toISOString());
     })
-    .argv
+    .parse()
